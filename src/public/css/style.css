@@ -1,0 +1,895 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+}
+
+h4{
+    color: #EE4D47;
+}
+
+
+header{
+    width: 100%;
+}
+
+.header-logo{
+    position: absolute;
+    width: 150px;
+    height: 133px;
+    left: 216px;
+    top: 0.3px;
+}
+
+.header-about{
+    position: absolute;
+    width: 59px;
+    height: 19px;
+    left: 700px;
+    top: 70px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: #ee4c4711;
+    color: #FFFFFF;
+}
+.header-how{
+    position: absolute;
+    width: 75px;
+    height: 19px;
+    left: 850px;
+    top: 70px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: #ee4c4711;
+    color: #FFFFFF;
+}
+.header-faq{
+    position: absolute;
+    width: 45px;
+    height: 19px;
+    left: 980px;
+    top: 70px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: #ee4c4711;
+    color: #FFFFFF;
+    
+}
+.header-contact{   
+    right: 15px;
+    top: 8%;
+    padding: 10px 14px 11px 14px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: inline-block;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.05em;
+    border-radius: 4px;
+    background-color: #EE4D47;
+    color: #FFF;
+    position: absolute;
+  
+}
+
+.background-banner{
+    left: 0%;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    position: absolute;
+}
+
+
+
+.get{
+    padding: 21px 28px 25px 21px;
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 240px;
+    top: 550px;
+    background: #EE4D47;
+    border-radius: 5px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: inline-block;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.05em;
+    border-radius: 4px;
+    color: #FFF;
+    
+   
+}
+
+.getText{
+    position: absolute;
+    width: 740px;
+    height: 300px;
+    left: 240px;
+    top: 190px;
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    background: #ee4c4711;
+    color: #FFF;
+}
+
+.about{
+    position: absolute;
+    width: 166px;
+    height: 50px;
+    left: 245px;
+    top: 1364px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    
+    color: #EE4D47;
+    
+}
+
+.aboutone{
+    position: absolute;
+    width: 470px;
+    height: 156px;
+    left: 245px;
+    top: 1454px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    
+    color: #402B2B;
+}
+
+.abouttwo{
+    position: absolute;
+    width: 460px;
+    height: 110px;
+    left: 300px;
+    top: 1610px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 36px;
+    color: #402B2B;
+    border-left: 8px solid red;
+    border-radius: 4px;
+    
+}
+
+.aboutimg{
+    position: absolute;
+    width: 497.94px;
+    height: 363.51px;
+    left: 751px;
+    top: 1270px;
+ 
+}
+.howimg{
+    position: absolute;
+    width: 497.94px;
+    height: 363.51px;
+    left: 221.66px;
+    top: 1800px;
+    
+}
+    
+.how{
+    position: absolute;
+    width: 455px;
+    height: 287px;
+    left: 805px;
+    top: 1891px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    color: #402B2B;
+    
+
+}
+.faq{
+    position: absolute;
+    width: 166px;
+    height: 50px;
+    left: 240px;
+    top: 2323px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    
+    color: #EE4D47;
+}
+.faqone{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 240px;
+    top: 2417.16px;
+    
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 140%;
+  
+    color: #402B2B;
+}
+
+.faqimg{
+    position: absolute;
+    width: 300px;
+    height: 110px;
+    left: 800px;
+    top: 2323px;
+    background: #FDEDE8;
+    padding: 20px 300px 600px 100px;
+    z-index: -1;
+}
+
+.faqquestions1{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 275.26px;
+    top: 2660px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    color: #402B2B;
+}
+
+.faqquestionsR{
+    position: absolute;
+    width: 480px;
+    height: 60px;
+    left: 275px;
+    top: 2700px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+   
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    color: #402B2B;
+}
+.faqquestions2{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 275.26px;
+    top: 2800px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    color: #402B2B;
+}
+.faqquestions3{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 275.26px;
+    top: 2900px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+  
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    color: #402B2B;
+}
+.faqquestions4{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 275.26px;
+    top: 3000px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+   
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    color: #402B2B;
+}
+.faqquestions5{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 845px;
+    top: 2660px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+   
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    color: #402B2B;
+}
+.faqquestions6{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 845px;
+    top:2760px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    color: #402B2B;
+}
+.faqquestions7{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 845px;
+    top:2860px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+   
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    color: #402B2B;
+}
+.faqquestions8{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 845.26px;
+    top: 3000px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    color: #402B2B;
+}
+.faqquestions9{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 845.26px;
+    top: 3100px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    color: #402B2B;
+}
+.faqquestions10{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 845.26px;
+    top: 3200px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    color: #402B2B;
+}
+.faqquestions11{
+    position: absolute;
+    width: 380px;
+    height: 90px;
+    left: 840px;
+    top: 3300px;
+    text-decoration: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    background-color: #ee4c4785;
+    color: #EE4D47;
+    
+    
+}
+
+.aboutus{
+    position: absolute;
+    width: 166px;
+    height: 50px;
+    left: 200px;
+    top: 3500px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #EE4D47;
+}
+.aboutustwo{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 200px;
+    top: 3570px;
+
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 140%;
+
+    color: #402B2B;
+}
+.aboutusisak{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+       
+    color: #402B2B;
+
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    left: 590px;
+    top: 3500px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+    
+
+}
+
+.aboutussimon{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #402B2B;
+
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    left: 999px;
+    top: 3500px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 3700px;
+    
+
+}
+.footer-nav{
+    position: absolute;
+    width: 330px;
+    height: 105px;
+    left: 150px;
+    top: 600px;
+    padding-left: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px; 
+    align-items: center;
+    background: #0F264C;
+    color: #FFFFFF;
+    border-left: 8px solid red;
+}
+
+.form{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 715px;
+    top: 400px;
+  
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+}
+
+.form-name{
+    position: absolute;
+    width: 95px;
+    height: 5px;
+    left: 30px;
+    top: 60px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #402B2B;
+    
+}
+.form-nametxt{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 90px;
+    
+    background: #FFFFFF;
+    border: 2px solid #EE4D47;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px rgba(238, 77, 71, 0.2);
+    border-radius: 5px;
+}
+
+.form-email{
+    position: absolute;
+    width: 189px;
+    height: 36.86px;
+    left: 30px;
+    top: 140px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 40px;
+
+    color: #402B2B;
+}
+.form-emailtxt{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 170px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(238, 77, 71, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.form-message{
+    position: absolute;
+    width: 189px;
+    height: 36.86px;
+    left: 30px;
+    top: 210px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 40px;
+
+    color: #402B2B;
+}
+.form-messagetxt{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 30px;
+    top: 240px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(238, 77, 71, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.form-get{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    width: 170px;
+    height: 57px;
+    left: 80px;
+    top: 320px;
+    background: #EE4D47;
+    border-radius: 5px;
+}
+.footer-navTwo{
+    color: rgb(15, 15, 15);
+    font-size: 15px;
+    padding-bottom: 40px;
+    left: 0%;
+    right: 12.5%;
+    top: 834px;
+    bottom: 10%;
+    display: inline;
+    position: absolute;  
+}
+
+.footer-navImg{
+    margin-left: 0%;
+    position: absolute;
+    top: 260px;
+}
+
+.footer-about{
+    position: absolute;
+    width: 59px;
+    height: 19px;
+    left: 750px;
+    top: 880px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 19px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background-color: #0F264C;
+    color: #FFFFFF;
+}
+.footer-how{
+    position: absolute;
+    width: 69px;
+    height: 19px;
+    left: 880px;
+    top: 880px;;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 19px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background-color: #0F264C;
+    color: #FFFFFF;
+}
+.footer-faq{
+    position: absolute;
+    width: 59px;
+    height: 19px;
+    left: 1030px;
+    top: 880px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 19px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background-color: #0F264C;
+    color: #FFFFFF;
+}
+
+.footer-bg{
+    
+position: absolute;
+left: 0%;
+right: 12.5%;
+top: 70%;
+bottom: 2.98%;
+z-index: -1;
+width: 100%;
+
+}
+
+.icons1{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    left: 240px;
+    top: 198%;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #E5E5E5;
+    color: #402B2B;  
+    
+}
+.icons2{
+    position: absolute;
+    left: 69.25%;
+    right: 30.15%;
+    top: 198%;
+    bottom: 1.66%;
+    
+}
+.icons3{
+    position: absolute;
+    left: 73.19%;
+    right: 25.67%;
+    top: 198.03%;
+    bottom: 1.72%;
+}
+.icons4{
+    position: absolute;
+    left: 77.44%;
+    right: 21.56%;
+    top: 198.03%;
+    bottom: 1.7%;
+    
+}
+
+
+@media (max-width: 465px) {
+    .banner img{
+        display: none;
+      }
+    }
+  
+    @media (min-width:800px) {
+    .banner img{
+      display: none;
+    }
+  }
+  
+  @media (min-width:992px) {
+    .banner img{
+      display: block;
+    }
+  }
+  
+  @media (min-width:1200px) {
+    .banner img{
+      display: block;
+    }
+  }
