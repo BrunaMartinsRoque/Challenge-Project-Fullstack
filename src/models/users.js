@@ -1,30 +1,31 @@
-module.exports = (connection,DataTypes)=>{
+module.exports = (sequelize,DataTypes)=>{
 
-    const Users = connection.define('Users',
-    {
-        id: {
-          type: DataTypes.INTEGER,
-          primaryKey: true,
-          autoIncrement: true,
-        },
-        name: {
-          type: DataTypes.STRING(200),
-        },
-        email: {
-          type: DataTypes.STRING(200),
-
-        },
-        message: {
-            type: DataTypes.STRING(800),
-  
+  const users = sequelize.define('users',
+      {
+          id:{
+              type:DataTypes.INTEGER,
+              primaryKey:true,
+              autoIncrement:true
           },
-    },
-        
-        {
-            tableName:'users'
-        },
-        
-    );
-    
-    return Users;
+          name:DataTypes.STRING,
+          email:DataTypes.STRING,
+          message:DataTypes.TEXT,
+          
+          //campos informativos de datas de criação e modificação
+          createdAt:{
+              field:'create_at',
+              type:DataTypes.DATE
+          },
+          updatedAt:{
+              field:'update_at',
+              type:DataTypes.DATE
+          },
+      },
+      
+      {
+          tableName:'users'
+      }
+  )
+
+  return users
 };

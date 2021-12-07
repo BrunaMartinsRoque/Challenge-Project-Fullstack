@@ -1,5 +1,5 @@
 module.exports = {
-    database:'challengeProject',
+    database:'challengeproject',
     dialect:'mysql',
     username:'root',
     password:null,
