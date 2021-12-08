@@ -1,6 +1,6 @@
 module.exports = (sequelize,DataTypes)=>{
 
-  const users = sequelize.define('users',
+  const Users = sequelize.define('User',
       {
           id:{
               type:DataTypes.INTEGER,
@@ -11,7 +11,6 @@ module.exports = (sequelize,DataTypes)=>{
           email:DataTypes.STRING,
           message:DataTypes.TEXT,
           
-          //campos informativos de datas de criação e modificação
           createdAt:{
               field:'create_at',
               type:DataTypes.DATE
@@ -27,5 +26,5 @@ module.exports = (sequelize,DataTypes)=>{
       }
   )
 
-  return users
+  return Users
 };
